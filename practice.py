@@ -25,3 +25,7 @@ print(name + "는 " + str(age) + "살이에요")
 #,를 이용하면 정수형, boolean도 str로 감싸지않고, 실행가능 그러나 띄어쓰기 무조건포함
 print(name + "는 " ,age, "살이에요")
 print(name + "은 어른일까요?" + str(is_adult))
+'''
+여러문장 주석처리
+ctrl + / : 주석처리 단축키
+'''
