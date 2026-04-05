@@ -39,3 +39,20 @@ from math import *
 print(floor(4.99))#내림 4
 print(ceil(3.14))#올림 4
 print(sqrt(16))#제곱근 4.0
+
+from random import *
+print(random()) #0.0 ~ 1.0미만의 임의의 값 생성
+print(random()*10) #0.0 ~ 10.0미만의 임의의 값 생성
+print(int(random()*10)) #0 ~ 10미만의 임의의 정수 값 생성
+print(int(random()*10)+1) #1 ~ 11미만의 임의의 정수 값 생성
+print(int(random()*45)+1)
+print(randrange(1,46)) #1 ~ 46미만의 임의의 값 생성
+print(randint(1,45)) #1 ~ 45이하
+
+#랜덤으로 날짜뽑기
+#월별 날짜는 다름을 감안하여 28일이내
+#매월 1~3일은 스터디 준비를 해야하므로 제외
+from random import *
+# day = int(random()*28)+1
+day = randint(4,28)
+print(str(day)+"일입니다.")
