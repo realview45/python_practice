@@ -28,4 +28,7 @@ print(name + "은 어른일까요?" + str(is_adult))
 '''
 여러문장 주석처리
 ctrl + / : 주석처리 단축키
+퀴즈
 '''
+station = "사당"
+print(station + "행 열차가 들어오고 있습니다.")
